@@ -6,6 +6,11 @@ export default function Luftfart() {
   return (
     <main className={styles.main}>
       <Navbar />
+        <h1>Busser</h1>
+        <div>
+        <button className={styles.buttons}><img src="favicon.ico" alt=""/><br/><h4>Små flyvepladser</h4></button>
+        <button className={styles.buttons}><img src="favicon.ico" alt=""/><br/><h4>Større danske lufthavne</h4></button>
+      </div>
       <Footer/>
     </main>
   )

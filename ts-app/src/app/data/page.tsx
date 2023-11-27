@@ -5,14 +5,13 @@ export default function omData() {
   return (
     <main className={styles.main}>
       <Navbar />
-        <h1>Velkommen til Passagertal.dk</h1>
-        <p>Hvor mange busrejser foretages? Hvor flyver vi hen? Og på hvilke tidspunkter er der flest, der tjekker ind med Rejsekortet?</p>
-      <div>
-        <button className={styles.buttons}><img src="favicon.ico" alt=""/><br/>Luftfart </button>
-        <button className={styles.buttons}><img src="favicon.ico" alt=""/><br/>Jernbaner</button>
-        <button className={styles.buttons}><img src="favicon.ico" alt=""/><br/>Busser</button>
-        <button className={styles.buttons}><img src="favicon.ico" alt=""/><br/>Rejsekort</button>
-      </div>
+        <h1>Om data</h1>
+        <h2>Datakvalitet</h2>
+        <p>Trafikstyrelsen arbejder løbende på at forbedre kvaliteten af vores data, der er baseret på rapporteringer fra de respektive operatører, trafikselskaber, infrastrukturforvaltere og godsoperatører.
+         <br/>
+         Dette kan betyde at nogle data kan været ændret i forhold til tidligere publicerede data. Endvidere gøres der opmærksom på, at data kan afvige fra anden statistik grundet opgørelsesmetoder, kilder mv.</p>
+        <br />
+        <p>Trafikstyrelsen eller anden dataleverandør, har ikke økonomisk ansvar for brugerens eventuelle direkte eller indirekte skader eller tab, herunder mistet fortjenelse hos brugeren, eller for skader eller tab opstået hos brugerens eventuelle medkontrahenter som følge af fejl i statistikken eller fejl, som er opstået ved bearbejding af statistikken.</p>
       <Footer/>
     </main>
   )
