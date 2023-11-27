@@ -1,0 +1,22 @@
+.nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    margin-left: 25px;
+    font-size: larger;
+    background-color: green;
+    display: inline-block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    color: azure;
+    font-weight: 400;
+  }
+  
+
+  
+
+   
+  

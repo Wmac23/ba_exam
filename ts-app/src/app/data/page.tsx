@@ -1,7 +1,7 @@
 import styles from './page.module.css'
-import Navbar from '../../components/Navbar'
-import Footer from '../../components/Footer'
-export default function Home() {
+import Navbar from '../../../components/Navbar'
+import Footer from '../../../components/Footer'
+export default function omData() {
   return (
     <main className={styles.main}>
       <Navbar />
