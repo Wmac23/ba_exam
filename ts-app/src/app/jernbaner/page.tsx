@@ -4,10 +4,11 @@ import Footer from '../../../components/Footer'
 
 export default function Jernbaner() {
   return (
-    <main >
+    <main className={styles.main}>
       <Navbar />
-      <div className={styles.main}>
-      <ul>
+      <div >
+      <h1 className={styles.text}>Jernbaner</h1>
+      <ul >
       <button><img src="favicon.ico" alt=""/><br/><h4>Påstigere</h4></button>
       <button><img src="favicon.ico" alt=""/><br/><h4>Ikke-statslige jernbaner</h4></button>
       <button><img src="favicon.ico" alt=""/><br/><h4>Stationskatalog</h4></button>

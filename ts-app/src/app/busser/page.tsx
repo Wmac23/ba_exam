@@ -6,10 +6,10 @@ export default function Busser() {
   return (
     <main className={styles.main}>
       <Navbar />
-        <h1>Busser</h1>
         <div>
-        <button className={styles.buttons}><img src="favicon.ico" alt=""/><br/><h4>Offentlige busser</h4><h2>240 mio.</h2><p>Påstigere 2022</p></button>
-        <button className={styles.buttons}><img src="favicon.ico" alt=""/><br/><h4>Fjernbusser</h4><h2>1,40 mio</h2><p>Påstigere 2022</p></button>
+          <h1 className={styles.text}>Busser</h1>
+        <button><img src="favicon.ico" alt=""/><br/><h4>Offentlige busser</h4><h2>240 mio.</h2><p>Påstigere 2022</p></button>
+        <button><img src="favicon.ico" alt=""/><br/><h4>Fjernbusser</h4><h2>1,40 mio</h2><p>Påstigere 2022</p></button>
       </div>
       <Footer/>
     </main>

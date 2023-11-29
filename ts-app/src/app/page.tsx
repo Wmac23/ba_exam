@@ -5,9 +5,9 @@ export default function Home() {
   return (
     <main className={styles.main}>
       <Navbar />
-        <h1>Velkommen til Passagertal.dk</h1>
-        <p>Hvor mange busrejser foretages? Hvor flyver vi hen? Og på hvilke tidspunkter er der flest, der tjekker ind med Rejsekortet?</p>
       <div>
+        <h1 className={styles.text}>Velkommen til Passagertal.dk</h1>
+        <p className={styles.text}>Hvor mange busrejser foretages? Hvor flyver vi hen? Og på hvilke tidspunkter er der flest, der tjekker ind med Rejsekortet?</p>
         <button className={styles.buttons}><img src="favicon.ico" alt=""/><br/>Luftfart </button>
         <button className={styles.buttons}><img src="favicon.ico" alt=""/><br/>Jernbaner</button>
         <button className={styles.buttons}><img src="favicon.ico" alt=""/><br/>Busser</button>
