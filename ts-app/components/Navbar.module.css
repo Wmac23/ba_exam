@@ -1,18 +1,20 @@
 .nav {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    margin-left: 25px;
-    font-size: larger;
-    background-color: green;
-    display: inline-block;
-    color: black;
+    margin: auto;
+    padding: auto;
+    width: 100%;
+    background-color: #535d34;
     text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
+    position: fixed;
+    top: 0;
+  }
+
+  .points{
+    display: inline-block;
     color: azure;
+    font-size: larger;
     font-weight: 400;
+    margin-left: 15px;
+    padding: 1.1%;
   }
   
 
