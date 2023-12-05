@@ -5,6 +5,7 @@ import styles from './page.module.css'
 import { getDocs, collection, addDoc } from "firebase/firestore";
 import Navbar from '../../../components/Navbar'
 import Footer from '../../../components/Footer'
+import RejsekortNav from "../../../components/RejsekortNav";
 
 function Home() {
   const [myPokemon, setMyPokemon] = useState([]);
@@ -39,6 +40,7 @@ function Home() {
   return (
   <main className={styles.main}>
     <Navbar/>
+    <RejsekortNav/>
     <div>
     <img src="mylist.png" alt="" />
     <div>

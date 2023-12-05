@@ -10,7 +10,7 @@
 }
 
 .text{
-  text-align: left;
+  justify-content: center;
   text-align: center;
   padding: 3%;
 }

@@ -1,10 +1,13 @@
 import styles from './page.module.css'
 import Navbar from '../../../components/Navbar'
 import Footer from '../../../components/Footer'
+import DataNav from '../../../components/DataNav'
+
 export default function omData() {
   return (
     <main className={styles.main}>
       <Navbar />
+      <div className={styles.sidebar}> <DataNav/> </div>
       <div className={styles.text}>
         <h1>Om data</h1>
         <br />
